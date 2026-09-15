@@ -24,6 +24,7 @@ export default function Navbar() {
           </Link>
           
           <div className="hidden md:flex items-center gap-8">
+            {!isAppPage && <a href="#extension" className="text-sm font-semibold text-slate-600 hover:text-primary-600 dark:text-slate-300 dark:hover:text-primary-400 transition-colors">Extension</a>}
             {!isAppPage && <a href="#features" className="text-sm font-semibold text-slate-600 hover:text-primary-600 dark:text-slate-300 dark:hover:text-primary-400 transition-colors">Features</a>}
             {!isAppPage && <a href="#community" className="text-sm font-semibold text-slate-600 hover:text-primary-600 dark:text-slate-300 dark:hover:text-primary-400 transition-colors">Community</a>}
             {!isAppPage && <a href="#about" className="text-sm font-semibold text-slate-600 hover:text-primary-600 dark:text-slate-300 dark:hover:text-primary-400 transition-colors">About</a>}
