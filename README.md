@@ -163,11 +163,11 @@ trustlens/
 │   ├── content/            # Content scripts (traffic-light overlay)
 │   ├── popup/              # React popup UI + chatbot
 │   └── manifest.json
-├── web/                    # Website front-end (React + Vite)
+├── frontend/               # Website front-end (React + Vite)
 │   ├── src/
-│   │   ├── pages/          # Dashboard, Report, Leaderboard, QR Scan
-│   │   ├── components/
-│   │   └── services/       # API clients
+│   │   ├── pages/          # LandingPage, AppPage
+│   │   ├── components/     # UI Components (Hero, ScannerDashboard, etc.)
+│   │   └── context/        # ThemeContext
 │   └── vite.config.js
 ├── server/                 # API Gateway (Node.js / Express)
 │   ├── routes/
@@ -223,7 +223,7 @@ uvicorn main:app --reload --port 8000
 ### 4. Set up the Website
 
 ```bash
-cd web
+cd frontend
 npm install
 npm run dev
 ```
