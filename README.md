@@ -4,7 +4,7 @@
 
 TrustLens is an AI-powered malicious and phishing URL detection platform, made up of a browser extension and a web application. It analyzes URLs in real time, computes a multi-factor risk score, explains threats in plain language using AI, and lets a community of users report and track emerging scams together.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)
 ![Status](https://img.shields.io/badge/status-in%20development-yellow.svg)
 ![Made with](https://img.shields.io/badge/made%20with-React%20%7C%20Node.js%20%7C%20Python-0B2027.svg)
 
@@ -302,7 +302,7 @@ Please open an issue first for major changes to discuss what you'd like to chang
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ---
 
