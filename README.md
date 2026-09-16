@@ -17,7 +17,6 @@ TrustLens is an AI-powered malicious and phishing URL detection platform, made u
 - [Architecture](#architecture)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
 - [Environment Variables](#environment-variables)
 - [API Overview](#api-overview)
 - [Roadmap](#roadmap)
@@ -158,28 +157,8 @@ The project ships as two connected surfaces:
 
 ```
 trustlens/
-├── extension/              # Browser extension (Manifest V3)
-│   ├── background/         # Background service worker
-│   ├── content/            # Content scripts (traffic-light overlay)
-│   ├── popup/              # React popup UI + chatbot
-│   └── manifest.json
-├── frontend/               # Website front-end (React + Vite)
-│   ├── src/
-│   │   ├── pages/          # LandingPage, AppPage
-│   │   ├── components/     # UI Components (Hero, ScannerDashboard, etc.)
-│   │   └── context/        # ThemeContext
-│   └── vite.config.js
-├── server/                 # API Gateway (Node.js / Express)
-│   ├── routes/
-│   ├── middleware/         # Auth, rate limiting
-│   └── index.js
-├── risk-engine/             # Python FastAPI ML microservice
-│   ├── models/              # Trained classifiers
-│   ├── checks/              # SSL, WHOIS, blacklist, lexical analysis
-│   └── main.py
-├── docs/                    # Architecture notes, diagrams
-├── docker-compose.yml
 └── README.md
+└── LICENSE
 ```
 
 ## Roadmap
