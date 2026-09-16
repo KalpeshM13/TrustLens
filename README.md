@@ -157,6 +157,7 @@ The project ships as two connected surfaces:
 
 ```
 trustlens/
+└── frontend/
 └── README.md
 └── LICENSE
 ```
