@@ -157,7 +157,12 @@ The project ships as two connected surfaces:
 
 ```
 trustlens/
-└── frontend/
+├── frontend/               # Website front-end (React + Vite)
+│   ├── src/
+│   │   ├── pages/          # LandingPage, AppPage
+│   │   ├── components/     # UI Components (Hero, ScannerDashboard, etc.)
+│   │   └── context/        # ThemeContext
+│   └── vite.config.js
 └── README.md
 └── LICENSE
 ```
